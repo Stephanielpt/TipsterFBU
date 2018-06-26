@@ -48,6 +48,11 @@
     self.totalLabel.text = [NSString stringWithFormat:@"$%.2f", total];
     
 }
+
+- (IBAction)onSlide:(id)sender {
+    
+}
+
 - (IBAction)onEditingBegin:(id)sender {
     [UIView animateWithDuration:0.2 animations:^{self.billField.frame = CGRectMake(self.billField.frame.origin.x, self.billField.frame.origin.y +30, self.billField.frame.size.width, self.billField.frame.size.height);
     }];
