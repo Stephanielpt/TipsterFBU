@@ -52,8 +52,18 @@
 }
 
 - (IBAction)onSlide:(id)sender {
+    
+    double bill2 = [self.billField.text doubleValue];
+    
     float tipPercentageSlide = self.tipPercentageSlider.value;
-    _chosenSliderPercentage.text = [NSString stringWithFormat:@"%.0f%%", tipPercentageSlide];
+    _chosenSliderPercentage.text = [NSString stringWithFormat:@"%.0f", tipPercentageSlide];
+    
+    double tipPerc = tipPercentageSlide;
+    
+    double tip2 = tipPerc * bill2;
+    double total2 = bill2 + tip2;
+    self.tipLabel.text = [NSString stringWithFormat:@"$%.2f", tip2];
+    self.totalLabel.text = [NSString stringWithFormat:@"$%.2f", total2];
 }
 
 - (IBAction)onEditingBegin:(id)sender {
