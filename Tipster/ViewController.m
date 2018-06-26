@@ -13,6 +13,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *tipLabel;
 @property (weak, nonatomic) IBOutlet UILabel *totalLabel;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
+@property (weak, nonatomic) IBOutlet UISlider *tipPercentageSlider;
+@property (weak, nonatomic) IBOutlet UILabel *chosenSliderPercentage;
 
 @end
 
@@ -50,7 +52,8 @@
 }
 
 - (IBAction)onSlide:(id)sender {
-    
+    float tipPercentageSlide = self.tipPercentageSlider.value;
+    _chosenSliderPercentage.text = [NSString stringWithFormat:@"%.0f%%", tipPercentageSlide];
 }
 
 - (IBAction)onEditingBegin:(id)sender {

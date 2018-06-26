@@ -140,8 +140,10 @@
                     <navigationItem key="navigationItem" title="Tipster" id="dCg-Sb-msr"/>
                     <connections>
                         <outlet property="billField" destination="2cd-gn-kG4" id="mDX-JX-VjL"/>
+                        <outlet property="chosenSliderPercentage" destination="EIu-dA-C36" id="zud-d9-s7G"/>
                         <outlet property="tipControl" destination="Thh-Wg-WDa" id="m8w-gS-B6M"/>
                         <outlet property="tipLabel" destination="Ron-6j-HB5" id="MxD-gj-ABF"/>
+                        <outlet property="tipPercentageSlider" destination="UBF-pR-CMn" id="z3g-EA-uhb"/>
                         <outlet property="totalLabel" destination="3hu-lb-qEl" id="TXR-1B-RwV"/>
                     </connections>
                 </viewController>
