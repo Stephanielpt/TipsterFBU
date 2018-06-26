@@ -24,7 +24,7 @@
                                 <color key="backgroundColor" red="0.74413916040000005" green="0.6808897652" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Thh-Wg-WDa">
-                                <rect key="frame" x="1" y="357" width="375" height="29"/>
+                                <rect key="frame" x="29" y="357" width="317" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.74413916040000005" green="0.6808897652" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <segments>
@@ -162,21 +162,6 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="860" y="132.68365817091455"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="d1o-Qw-ts6">
-            <objects>
-                <viewController id="uhm-Ch-r9A" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="U3e-wS-ipB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="hpJ-fH-0yG"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aj9-bM-zUU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1647.2" y="129.98500749625188"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="G4r-r2-kfO">
