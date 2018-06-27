@@ -144,7 +144,13 @@
                             <outletCollection property="gestureRecognizers" destination="aaK-dH-PeQ" appends="YES" id="KNL-oG-fwt"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tipster" id="dCg-Sb-msr"/>
+                    <navigationItem key="navigationItem" title="Tipster" id="dCg-Sb-msr">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="bYA-dk-4kJ">
+                            <connections>
+                                <segue destination="Viw-6Q-2pm" kind="show" id="6tj-FL-Xb3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="billField" destination="2cd-gn-kG4" id="mDX-JX-VjL"/>
                         <outlet property="chosenSliderPercentage" destination="EIu-dA-C36" id="zud-d9-s7G"/>
@@ -163,20 +169,20 @@
             </objects>
             <point key="canvasLocation" x="860" y="132.68365817091455"/>
         </scene>
-        <!--Settings-->
-        <scene sceneID="ecV-5f-Co5">
+        <!--Settings View Controller-->
+        <scene sceneID="2Xe-mK-fa4">
             <objects>
-                <viewController id="iH6-40-LjN" customClass="Settings" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5hH-qg-Orq">
+                <viewController id="Viw-6Q-2pm" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Y8-GH-XBm" customClass="Settings">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="6hZ-rq-yMZ"/>
+                        <viewLayoutGuide key="safeArea" id="uaC-FG-r3v"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="III-4u-V6O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vq1-t6-fAm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1618" y="134"/>
+            <point key="canvasLocation" x="1572" y="136"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="G4r-r2-kfO">

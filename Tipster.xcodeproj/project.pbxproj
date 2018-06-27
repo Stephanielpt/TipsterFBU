@@ -15,7 +15,7 @@
 		9095A38320E2D836007CC68A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095A38220E2D836007CC68A /* main.m */; };
 		9095A38D20E2D836007CC68A /* TipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095A38C20E2D836007CC68A /* TipsterTests.m */; };
 		9095A39820E2D836007CC68A /* TipsterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095A39720E2D836007CC68A /* TipsterUITests.m */; };
-		9095A3A720E303E5007CC68A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095A3A620E303E5007CC68A /* SettingsViewController.m */; };
+		9095A3AA20E31050007CC68A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095A3A920E31050007CC68A /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		9095A39320E2D836007CC68A /* TipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9095A39720E2D836007CC68A /* TipsterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsterUITests.m; sourceTree = "<group>"; };
 		9095A39920E2D836007CC68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9095A3A520E303E5007CC68A /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		9095A3A620E303E5007CC68A /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		9095A3A820E31050007CC68A /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9095A3A920E31050007CC68A /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +108,9 @@
 				9095A37420E2D834007CC68A /* AppDelegate.m */,
 				9095A37620E2D834007CC68A /* ViewController.h */,
 				9095A37720E2D834007CC68A /* ViewController.m */,
+				9095A3A820E31050007CC68A /* SettingsViewController.h */,
+				9095A3A920E31050007CC68A /* SettingsViewController.m */,
 				9095A37920E2D834007CC68A /* Main.storyboard */,
-				9095A3A520E303E5007CC68A /* SettingsViewController.h */,
-				9095A3A620E303E5007CC68A /* SettingsViewController.m */,
 				9095A37C20E2D836007CC68A /* Assets.xcassets */,
 				9095A37E20E2D836007CC68A /* LaunchScreen.storyboard */,
 				9095A38120E2D836007CC68A /* Info.plist */,
@@ -270,7 +270,7 @@
 				9095A37820E2D834007CC68A /* ViewController.m in Sources */,
 				9095A38320E2D836007CC68A /* main.m in Sources */,
 				9095A37520E2D834007CC68A /* AppDelegate.m in Sources */,
-				9095A3A720E303E5007CC68A /* SettingsViewController.m in Sources */,
+				9095A3AA20E31050007CC68A /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

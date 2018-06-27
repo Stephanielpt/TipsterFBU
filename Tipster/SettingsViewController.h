@@ -6,8 +6,8 @@
 //  Copyright © 2018 Stephanie Lampotang. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface SettingsViewController : NSObject
+@interface SettingsViewController : UIViewController
 
 @end
