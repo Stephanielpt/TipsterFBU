@@ -61,7 +61,7 @@
     
     double tipPerc = tipPercentageSlide;
     
-    double tip2 = tipPerc * bill2;
+    double tip2 = (tipPerc/100) * bill2;
     double total2 = bill2 + tip2;
     self.tipLabel.text = [NSString stringWithFormat:@"$%.2f", tip2];
     self.totalLabel.text = [NSString stringWithFormat:@"$%.2f", total2];
