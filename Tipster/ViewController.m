@@ -67,17 +67,17 @@
 }
 
 - (IBAction)onEditingBegin:(id)sender {
-    [UIView animateWithDuration:0.2 animations:^{self.billField.frame = CGRectMake(self.billField.frame.origin.x, self.billField.frame.origin.y +30, self.billField.frame.size.width, self.billField.frame.size.height);
+    [UIView animateWithDuration:0.7 animations:^{self.tipControl.frame = CGRectMake(self.tipControl.frame.origin.x, self.tipControl.frame.origin.y +100, self.tipControl.frame.size.width, self.tipControl.frame.size.height);
     }];
     
 }
 
 - (IBAction)onEditingEnd:(id)sender {
-    CGRect newFrame = self.billField.frame;
-    newFrame.origin.y -= 30;
+    CGRect newFrame = self.tipControl.frame;
+    newFrame.origin.y -= 100;
     
-    [UIView animateWithDuration:0.2 animations:^{
-        self.billField.frame = newFrame;
+    [UIView animateWithDuration:0.7 animations:^{
+        self.tipControl.frame = newFrame;
     }];
 }
 
