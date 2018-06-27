@@ -38,6 +38,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 Describe any challenges encountered while building the app.
 - Designing a good looking app is so much harder than I thought it would be :// 
 - Getting the slider to work with the label was a fun challenge
+- The settings page was a hard challenge that i didn't get to complete
 
 ## Credits
 
